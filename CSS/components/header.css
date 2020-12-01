@@ -1,0 +1,55 @@
+.Header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 30px 0;
+}
+
+.header_logo img {
+  width: 200px;
+  height: 50px;
+}
+
+.header_nav {
+  margin-left: 200px;
+  white-space: nowrap;
+}
+
+.header_nav>ul {
+  display: flex;
+}
+
+.header_nav>ul>li {
+  margin-left: 50px;
+  padding: 15px 0;
+  border-bottom: 3px solid transparent;
+  transition: 0.5s;
+}
+
+.header_nav>ul>li.active {
+  border-color: #f5b316;
+}
+
+.header_nav>ul>li>a {
+  color: #000;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.header_nav>ul>li:hover {
+  border-color: #f5b316;
+}
+
+.mobile_bar.fas {
+  display:none;
+}
+
+/* Colors:
+  color name, hex code
+  ornage, green
+  #000, 0-9, A-F
+  0123456789ABCDEF
+  red, green blue
+  rgb()
+*/

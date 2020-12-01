@@ -1,0 +1,57 @@
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.section_paddings {
+    padding: 5% 0;
+}
+
+.main_btn_orange {
+    font-size: 16px;
+    background-color: #f5b316;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    width: 210px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+}
+
+.main_btn_orange:hover {
+    background-color: #282828;
+    color: #fff
+}
+
+.trasparent_btn {
+    background-color: transparent;
+    border-color: #282828;
+    color: #282828
+}
+
+.section_titles {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.section_tops {
+    width: 60%;
+    margin-bottom: 4%;
+}
+
+.wrap_elements {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hr {
+    height:2px;
+    width:30%;
+    background-color:#f5b316;
+    margin: 5% auto;
+} 
